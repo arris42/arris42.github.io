@@ -28,3 +28,10 @@ body {
 		margin: 0 1rem;
 	}
 }
+
+/* Workaround flex child is not filling with flex-grow, when flex-column is applied */
+@media screen and (max-width: 576px) {
+	.m-wrap {
+		width: 100%;
+	}
+}
