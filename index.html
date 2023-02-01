@@ -10,7 +10,6 @@
 	<title>Index Page</title>
 
 	<link href="assets/bootstrap.min.css" rel="stylesheet">
-
 	<link href="offcanvas.css" rel="stylesheet">
 </head>
 
@@ -21,62 +20,110 @@
 		<!-- main title -->
 		<div class="align-items-center p-3 my-3 text-white bg-secondary rounded shadow-sm">
 			<div class="lh-1">
-				<h1 class="h6 mb-0 text-white lh-1">Repositories</h1>
+				<h1 class="h6 mb-0 text-white lh-1">Repository</h1>
 			</div>
 		</div>
 
-		<!-- grids -->
+		<!-- unrelated -->
 		<div class="my-3 p-3 bg-body rounded shadow-sm bg-light d-grid">
 
 			<div class="row">
 				<div class="col border-bottom">
-					<h6 class="pb-2 mb-0 text-left">Under development</h6>
+					<h6 class="pb-2 mb-0 text-left">Musics</h6>
 				</div>
 			</div>
 
 			<!-- items -->
-			<div class="row border-bottom m-indent pt-2 pb-2">
-				<div class="col-8 pt-2 pb-2 text-muted small">
-					<strong class="d-block text-gray-dark">developerCLOW Versi 2</strong>
-					has not been developed since latest 2020 release
+			<div class="row border-bottom m-indent pt-2 pb-2 flex-column flex-sm-row">
+				<div class="col-8 pt-2 pb-2 text-muted small flex-grow-1">
+					<strong class="d-block text-gray-dark">Kawai Upright Soundbank</strong>
+					Remade upright kawai soundfont. Based on FreePats Project, with some improvements. Still decent though. Listen some demo for more details!
 				</div>
-				<div
-					class="col col-sm-4 d-flex align-items-center justify-content-center flex-sm-row flex-wrap m-auto gap-2 flex-grow-1">
-					<a type="button" class="btn btn-success" href="https://arris42.github.io/Versi_2/">Website</a>
-					<a type="button" class="btn btn-secondary text-nowrap" href="https://github.com/arris42/Versi_2"
-						target="_blank">Sauce code
+				<div class="col col-sm-4 d-flex align-items-center flex-sm-row flex-wrap m-auto gap-2 flex-grow-1">
+					<a type="button" class="flex-grow-1 btn btn-success" href="https://github.com/arris42/upright-kawai/releases">Download</a>
+					<a type="button" class="flex-grow-1 btn btn-secondary text-nowrap"
+						href="https://freepats.zenvoid.org/Piano/acoustic-grand-piano.html" target="_blank">Original project
 						&#8599;</a>
 				</div>
 			</div>
-			<div class="row border-bottom m-indent pt-2 pb-2">
-				<div class="col-8 pt-2 pb-2 text-muted small">
+			<div class="row border-bottom m-indent pt-2 pb-2 flex-column flex-sm-row">
+				<div class="col-8 pt-2 pb-2 text-muted small flex-grow-1">
+					<strong class="d-block text-gray-dark">Basic Pitch</strong>
+					Converts audio to MIDI offline in-browser. Lightweight on most modern computers (needs 2GB free RAM to keep run smoothly). Built by Spotify
+				</div>
+				<div class="col col-sm-4 d-flex align-items-center flex-sm-row flex-wrap m-auto gap-2 flex-grow-1">
+					<a type="button" class="flex-grow-1 btn btn-success" href="https://basicpitch.spotify.com/">Website
+						&#8599;</a>
+					<a type="button" class="flex-grow-1 btn btn-secondary text-nowrap"
+						href="https://github.com/spotify/basic-pitch" target="_blank">Source code &#8599;</a>
+				</div>
+			</div>
+			<div class="row border-bottom m-indent pt-2 pb-2 flex-column flex-sm-row">
+				<div class="col-8 pt-2 pb-2 text-muted small flex-grow-1">
+					<strong class="d-block text-gray-dark">Piano Libraries</strong>
+					Decent piano library collection, sampled from popular grand pianos. Play them with MIDI keyboard or even
+					your own PC keyboard. Of course they are free!
+				</div>
+				<div class="col col-sm-4 d-flex align-items-center flex-sm-row flex-wrap m-auto gap-2 flex-grow-1">
+					<a type="button" class="flex-grow-1 btn btn-success text-nowrap"
+						href="https://gist.github.com/arris42/0e445c0cb88fe5baa33888840d702384">View</a>
+				</div>
+			</div>
+			<div class="row border-bottom m-indent pt-2 pb-2 flex-column flex-sm-row">
+				<div class="col-8 pt-2 pb-2 text-muted small flex-grow-1">
 					<strong class="d-block text-gray-dark">Piano Scribe</strong>
-					Converts audio to MIDI offline using Tensorflow, recommended 8GB Memory for idle usage
-					(approx. ~60MB total website size)
+					Converts audio to MIDI offline in-browser using Tensorflow, recommended 4GB Memory for idle usage
+					(Although it takes a long time for processing audio duration above 30secs. You can use Basic Pitch above instead)
 				</div>
-				<div
-					class="col col-sm-4 d-flex align-items-center justify-content-center flex-sm-row flex-wrap m-auto gap-2 flex-grow-1">
-					<a type="button" class="btn btn-success" href="https://arris42.github.io/pianoscribe/">Website</a>
-					<a type="button" class="btn btn-secondary text-nowrap"
-						href="https://glitch.com/edit/#!/piano-scribe" target="_blank">External sauce
+				<div class="col col-sm-4 d-flex align-items-center flex-sm-row flex-wrap m-auto gap-2 flex-grow-1">
+					<a type="button" class="flex-grow-1 btn btn-success"
+						href="https://arris42.github.io/pianoscribe/">Website</a>
+					<a type="button" class="flex-grow-1 btn btn-secondary text-nowrap"
+						href="https://glitch.com/edit/#!/piano-scribe" target="_blank">Sauce code
 						&#8599;</a>
 				</div>
 			</div>
-			<div class="row border-bottom m-indent pt-2 pb-2">
-				<div class="col-8 pt-2 pb-2 text-muted small">
-					<strong class="d-block text-gray-dark">XMRig</strong>
-					Unofficial XMRig miner release for windows-only, without developer fee
+
+		</div>
+
+		<!-- under development grids -->
+		<div class="my-3 p-3 bg-body rounded shadow-sm bg-light d-grid">
+
+			<div class="row">
+				<div class="col border-bottom">
+					<h6 class="pb-2 mb-0 text-left">Others</h6>
 				</div>
-				<div
-					class="col col-sm-4 d-flex align-items-center justify-content-center flex-sm-row flex-wrap m-auto gap-2 flex-grow-1">
-					<a type="button" class="btn btn-success"
-						href="https://github.com/arris42/xmrig/releases">Website</a>
-					<a type="button" class="btn btn-secondary text-nowrap" href="https://github.com/xmrig/xmrig"
-						target="_blank">External sauce
+			</div>
+
+			<!-- items -->
+			<div class="row border-bottom m-indent pt-2 pb-2 flex-column flex-sm-row">
+				<div class="col-8 pt-2 pb-2 text-muted small flex-grow-1">
+					<strong class="d-block text-gray-dark">XMRig</strong>
+					Unofficial XMRig miner release without developer fee. Binaries available for windows-only
+				</div>
+				<div class="col col-sm-4 d-flex align-items-center flex-sm-row flex-wrap m-auto gap-2 flex-grow-1">
+					<a type="button" class="flex-grow-1 btn btn-success"
+						href="https://github.com/arris42/xmrig/releases">Download</a>
+					<a type="button" class="flex-grow-1 btn btn-secondary text-nowrap"
+						href="https://github.com/xmrig/xmrig" target="_blank">External sauce
 						&#8599;</a>
 				</div>
 
 			</div>
+			<div class="row border-bottom m-indent pt-2 pb-2 flex-column flex-sm-row">
+				<div class="col-8 pt-2 pb-2 text-muted small flex-grow-1">
+					<strong class="d-block text-gray-dark">developerCLOW Versi 2</strong>
+					had not been developed since latest 2020 release
+				</div>
+				<div class="col col-sm-4 d-flex align-items-center flex-sm-row flex-wrap m-auto gap-2 flex-grow-1">
+					<a type="button" class="flex-grow-1 btn btn-success"
+						href="https://arris42.github.io/Versi_2/">Website</a>
+					<a type="button" class="flex-grow-1 btn btn-secondary text-nowrap"
+						href="https://github.com/arris42/Versi_2" target="_blank">Sauce code
+						&#8599;</a>
+				</div>
+			</div>
+
 		</div>
 	</main>
 
